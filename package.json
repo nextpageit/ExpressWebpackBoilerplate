@@ -1,0 +1,33 @@
+{
+  "name": "expresswebpackboilerplate",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Express Api Routing Webpack Boilerplate to help bundle along node modules",
+  "main": "app.js",
+  "author": "Sanjay (sanjay.d@nextpageit.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nextpageit/ExpressWebpackBoilerplate"
+  },
+  "scripts": {
+    "start": "node ./app",
+    "start:dev": "webpack-dev-server",
+    "build:prod": "webpack -p"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "^1.6.3",
+    "morgan": "~1.9.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "clean-webpack-plugin": "^0.1.19",
+    "node-loader": "^0.6.0",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.14",
+    "webpack-dev-server": "^3.1.3",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
